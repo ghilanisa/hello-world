@@ -4,7 +4,7 @@
   "description": "1st",
   "main": "app.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "mocha --require babel-core/register --recursive test"
   },
   "repository": {
     "type": "git",
